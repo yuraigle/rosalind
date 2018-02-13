@@ -54,7 +54,7 @@ public class Iprb {
         Integer total = 10000000;
 
         try {
-            for (Integer i = 0; i < total; i++) {
+            for (int i = 0; i < total; i++) {
                 if ((new TestCase(k, m, n)).run())
                     win++;
             }

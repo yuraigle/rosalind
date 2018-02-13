@@ -63,7 +63,7 @@ public class Iprb_2 {
             Integer ttlPerTask = totalTests / numThreads;
 
             try {
-                for (Integer i = 0; i < ttlPerTask; i++) {
+                for (int i = 0; i < ttlPerTask; i++) {
                     if ((new TestCase(k, m, n)).run())
                         win++;
                 }
